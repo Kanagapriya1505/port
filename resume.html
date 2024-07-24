@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <style>
+        html {
+    scroll-behavior: smooth;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+        .header-left img {
+            border-radius: 50%;
+            width: 120px;
+            height: 140px;
+            margin-right: 50px;
+        }
+        .header-center {
+            text-align: center;
+        }
+        .header-center h1 {
+            margin: 0;
+        }
+        .header-center nav {
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid lightgray;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+        .links ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .button-item {
+        display: inline-block;
+        margin: 20px;
+    }
+    .button-link {
+        display: flex;
+        flex-direction: column; /* Arrange items in a column */
+        align-items: center;
+        text-decoration: none; /* Remove underline from the link */
+    }
+    .icon {
+        width: 40px; /* Adjust icon size as needed */
+        height: 40px;
+        margin-bottom: 20px; /* Increased space between icon and button */
+    }
+    .links button {
+        background-color: #333;
+        color: #fff;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .links button:hover {
+        background-color: #555;
+        transform: scale(1.05);
+    }
+    .button-item + .button-item {
+        margin-left: 20px; /* Increase this value to add more space */
+    }
+    .links button a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="407990a1-18c5-4c8b-ab33-04ca998d7160.jpg" alt="Profile Photo">
+        </div>
+        <div class="header-center">
+            <h1>Kanaga Priya SS </h1><h3 style="color: lightgray;">Student (2022-2026)</h3><br>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Personal Intrest">Personal Intrest</a></li>
+                    <li><a href="Certifications">Certifications</a></li>
+                    <li><a href="#Reference">Reference</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I am Kanaga Priya. To effectively use my self-learning skills in the field of engineering for the betterment of myself and the welfare of the company in which I am working and to adapt myself to the required skill set.</p>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="details">
+                <p>Sri Krishna College of Technology.</p>
+                <p>Bachelor of Engineering - B.E (ECE)</p>
+                <p>Current CGPA - 7.45</p>
+                <p>HSC - 75.6% | Graduated on March 2022.</p>
+                <p>SSLC - 97.6% | Graduated on March 2020.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="details">
+                <ul>
+                    <h3>Technical skills</h3>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>Web Development using HTML, CSS, JavaScript, and React JS</li>
+                </ul>
+            </div>
+           
+            <div class="details">
+                <ul>
+                    <h3>Soft skills</h3>
+                    <li>Good Communication.</li>
+                    <li>Leadership Skills.</li>
+                    <li>Negotiation and Perseverance.</li>
+                    <li>Ability to follow instructions and deliver quality results.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="hobbies" class="section">
+            <h2>Personal Interest</h2>
+            <h3>Hobbies</h3>
+            <div class="details">
+                <ul>
+                    <li>Drawing</li>
+                    <li>Singing</li>
+                    <li>Dancing</li>
+                </ul>
+            </div>
+            <h3>Language</h3>
+            <div class="details">
+                <ul>
+                    <li>English</li>
+                    <li>Tamil</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <div class="details">
+                <h3>NPTEL</h3>
+                <ol>
+                    <li>Effective Writing</li>
+                </ol>
+                <h3>NoviTech Workshop</h3>
+                <ol>
+                    <li>Full Stack Development</li>
+                    <li>Internet of Things</li>
+                    <li>Augmented Reality and Virtual Reality</li>
+                </ol>
+                <h3>Coursera</h3>
+                <ol>
+                    <li>Interfacing with the Arduino</li>
+                    <li>Build a website using Wix Artificial Desgin Intelligence</li>
+                    <li>HTML,CSS and JavaScript for web developers</li>
+                    <li>C++ classes and objects</li>
+                    <li>Encryption and Decryption using c++</li>
+                    <li>Introduction to HTML</li>
+                    <li>Introduction to the Internet of things and Embeded Systems</li>
+                    <li>How to make invitations using Canva</li>
+                </ol>
+                <h3>Cisco</h3>
+                <ol>
+                    <li>Introduction to Cyber Security</li>
+                </ol>
+            </div>
+            <h2>Internships</h2>
+            <div class="details">
+                <h3>Cummins India Limited,Pune</h3>
+                <ul>
+                    <h3>Alternators, Controllers and Engines</h3>
+                    <p>Duration : 01/07/2024 - 12/07/2024 </p>
+                    </ul>
+                    <h3>Enthu Technology, Coimbatore</h3>
+                    <ul>
+                    <h3>IOT using LoRaWAN Techonology</h3>
+                    <img src="cal.avif" alt="calendar" class="icon"> 25/10/2023 - 29/10/2023
+                </ul>
+            </div>
+            <h2>Project</h2>
+            <div class="details">
+                    <h3>Fit Gocery</h3>
+                    <ul>
+                    <p>Developed a Fit Grocery application using HTML,CSS and javascript providing users with an intuitive interface to browse and manage their shopping list efficiently." </p>
+                </ul>
+                    <h3>Green Mart</h3>
+                    <ul>
+                    <p>Green Mart, a sustainable online grocery store using React JS, focusing on user-friendly features and eco-friendly products." </p>
+                </ul>
+            </div>
+        </section>
+
+      
+        <section id="Reference" class="section links">
+            <h2>Reference</h2>
+            <ul>
+                <li class="button-item">
+                    <a href="https://github.com/Kanagapriya1505" target="_blank" class="button-link">
+                        <img src="github.png" alt="GitHub" class="icon">
+                        <button>GitHub</button>
+                    </a>
+                </li>
+                <li class="button-item">
+                    <a href="https://www.linkedin.com/in/kanaga-priya-s-s-220912258" target="_blank" class="button-link">
+                        <img src="linkedin.png" alt="LinkedIn" class="icon">
+                        <button>LinkedIn</button>
+                    </a>
+                </li>
+                <li class="button-item">
+                    <a href="mailto:727822tuec061@skct.edu.in" class="button-link">
+                        <img src="mail.jpg" alt="Mail" class="icon">
+                        <button>Mail</button>
+                    </a>
+                </li>
+                
+                <li class="button-item">
+                    <a href="8838051782" target="_blank" class="button-link">
+                        <img src="phone.png" alt="phone" class="icon">
+                        <button>Phone</button>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+<style>
+    .links ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .button-item {
+        margin: 20px 0; /* Adjust the margin for spacing between buttons */
+    }
+    .links button {
+        background-color: #333;
+        color: #fff;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .links button:hover {
+        background-color: #555;
+        transform: scale(1.05);
+    }
+    .links button a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+</style>
+
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
